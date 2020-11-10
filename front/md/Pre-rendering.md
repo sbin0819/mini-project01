@@ -65,3 +65,5 @@ This is possible because getStaticProps runs only on the server-side. It will ne
 ### Only Allowed in a Page
 
 getStaticProps can only be exported from a page. You can’t export it from non-page files.
+
+**[learn more](https://nextjs.org/docs/basic-features/data-fetching)**
