@@ -5,6 +5,8 @@ import axios from 'axios';
 
 import { NYT_API } from '../../.env.js';
 
+export const fetchAddr = `https://api.nytimes.com/svc/books/v3/lists/overview.json?api-key=${NYT_API}`;
+
 export const fetchNYTBooksOverview = async () => {
   try {
     const response = await axios.get(
