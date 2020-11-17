@@ -1,4 +1,3 @@
-import React from 'react';
 import Link from 'next/link';
 import useFetch from '../../hooks/useFetch';
 import { Table, message } from 'antd';
