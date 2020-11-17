@@ -17,8 +17,14 @@ export default function Header() {
       <Link href="/book">
         <a>Book</a>
       </Link>
-      <Link href="/about">
-        <a>About</a>
+      <Link href="/static">
+        <a>Static</a>
+      </Link>
+      <Link href="/tweet1">
+        <a>Tweet1</a>
+      </Link>
+      <Link href="/tweet2">
+        <a>Tweet2</a>
       </Link>
     </HeaderContainer>
   );
