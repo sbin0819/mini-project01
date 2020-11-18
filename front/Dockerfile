@@ -1,13 +1,13 @@
-From node:14.14.0 as builder
-
-# 작업 폴더를 만들고 npm 설치
-RUN mkdir /usr/src/app
+FROM node:14.9
+ 
 WORKDIR /usr/src/app
-ENV PATH /usr/src/app/node_modules/.bin:$PATH
-COPY package.json /usr/src/app/package.json
-RUN yarn install --silent
-RUN yarn global add react-scripts@2.1.3 -g --silent
-
-# 소스를 작업폴더로 복사하고 앱 실행
-COPY . /usr/src/app
-CMD ["yarn", "run", "dev"]
+ 
+COPY package*.json ./
+ 
+RUN yarn install
+ 
+COPY . .
+ 
+EXPOSE 3001
+ 
+CMD [ "yarn", "run", "dev" ]
