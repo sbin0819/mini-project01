@@ -35,10 +35,10 @@ export default function Header() {
       <Link href="/static">
         <a>Static</a>
       </Link>
-      <Link href="/tweet1">
+      <Link href="/tweet/tweet1">
         <a>Tweet1</a>
       </Link>
-      <Link href="/tweet2">
+      <Link href="/tweet/tweet2">
         <a>Tweet2</a>
       </Link>
       <Dropdown overlay={menu} placement="bottomLeft">
