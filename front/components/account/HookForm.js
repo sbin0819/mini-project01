@@ -8,11 +8,7 @@ export default function App() {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <input name="firstName" ref={register} />
-      <select name="gender" ref={register}>
-        <option value="female">female</option>
-        <option value="male">male</option>
-        <option value="other">other</option>
-      </select>
+      <input name="lastName" ref={register} />
       <input type="submit" />
     </form>
   );

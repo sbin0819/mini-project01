@@ -1,3 +1,8 @@
+import HookFormWithValue from '../../components/account/HookFormWithValue';
 export default () => {
-  return <div>input2</div>;
+  return (
+    <div>
+      <HookFormWithValue />
+    </div>
+  );
 };

@@ -14,12 +14,12 @@ export default function Header() {
     <Menu>
       <Menu.Item>
         <Link href="/account/input1">
-          <a>Inputs</a>
+          <a>Input1</a>
         </Link>
       </Menu.Item>
       <Menu.Item>
         <Link href="/account/input2">
-          <a>Inputs</a>
+          <a>Input2</a>
         </Link>
       </Menu.Item>
     </Menu>
