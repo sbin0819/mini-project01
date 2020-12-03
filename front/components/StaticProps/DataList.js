@@ -1,4 +1,4 @@
-import { Table, message } from 'antd';
+import { Table } from 'antd';
 
 function DataList({ data }) {
   const columns = [
@@ -16,11 +16,7 @@ function DataList({ data }) {
     },
   ];
 
-  return (
-    <div>
-      <Table dataSource={data} columns={columns} rowKey={record => record.list_id} />
-    </div>
-  );
+  return <Table dataSource={data} columns={columns} rowKey={record => record.list_id} />;
 }
 
 export default DataList;

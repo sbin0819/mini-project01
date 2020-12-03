@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
-import { fetchArticles } from './api/nyt';
+import { fetchArticles } from '../api/nyt';
 
 const divStyle = {
   color: 'blue',

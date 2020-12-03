@@ -1,4 +1,4 @@
-import InfiniteList from '../components/Infinite/InfiniteList';
+import InfiniteList from '../../components/Infinite/InfiniteList';
 
 function Tweet2() {
   return <InfiniteList />;
