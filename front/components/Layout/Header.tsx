@@ -10,7 +10,7 @@ const HeaderContainer = styled.div`
 `;
 
 export default function Header() {
-  const menu = (
+  const accountMenu = (
     <Menu>
       <Menu.Item>
         <Link href="/account/input1">
@@ -41,7 +41,10 @@ export default function Header() {
       <Link href="/tweet/tweet2">
         <a>Tweet2</a>
       </Link>
-      <Dropdown overlay={menu} placement="bottomLeft">
+      <Link href="/tutorial">
+        <a>Tutorial</a>
+      </Link>
+      <Dropdown overlay={accountMenu} placement="bottomLeft">
         <Button>account</Button>
       </Dropdown>
     </HeaderContainer>
