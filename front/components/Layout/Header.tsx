@@ -44,6 +44,9 @@ export default function Header() {
       <Link href="/tutorial">
         <a>Tutorial</a>
       </Link>
+      <Link href="/swr">
+        <a>swr</a>
+      </Link>
       <Dropdown overlay={accountMenu} placement="bottomLeft">
         <Button>account</Button>
       </Dropdown>
