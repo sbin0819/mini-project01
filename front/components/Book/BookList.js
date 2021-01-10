@@ -45,9 +45,10 @@ function BookList() {
       render: row => (
         <Link
           href={{
-            pathname: `/book/${row.list_id}`,
+            pathname: `/book/[id]`,
             query: { books: JSON.stringify(row.books) },
           }}
+          as={`/book/${row.list_id}`}
         >
           <a>total: {row.books.length}</a>
         </Link>
